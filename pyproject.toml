@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neeraj-llmguard"
+version = "0.1.0"
+description = "Open-source prompt injection firewall, hallucination blocker, and agent memory layer for any LLM app"
+readme = "README.md"
+license = "MIT"
+authors = [
+  {name = "Neeraj Choudhary"}
+]
+keywords = ["llm", "ai-safety", "prompt-injection", "hallucination", "agent-memory"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.10"
+dependencies = [
+  "transformers>=4.40.0",
+  "sentence-transformers>=3.0.0",
+  "chromadb>=0.5.0",
+  "torch>=2.0.0",
+  "datasets>=2.0.0",
+  "huggingface-hub>=0.20.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Neeraj-Ch0udhary/llmguard"
+Repository = "https://github.com/Neeraj-Ch0udhary/llmguard"
+
+[tool.setuptools.packages.find]
+include = ["guard_input*", "guard_output*", "guard_memory*", "sdk*"]
+exclude = ["examples*", "dashboard*", "api*", "memory_db*", "venv*"]

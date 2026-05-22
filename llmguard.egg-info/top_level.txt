@@ -1,0 +1,4 @@
+guard_input
+guard_memory
+guard_output
+sdk

@@ -1,10 +1,11 @@
 # 🛡️ LLMGuard
 
-> Open-source safety middleware for any LLM-powered app.
+> Open-source safety middleware for any LLM-powered app — blocks prompt injections, catches hallucinations, and gives agents persistent memory.
 
-[![PyPI version](https://badge.fury.io/py/neeraj-llmguard.svg)](https://pypi.org/project/neeraj-llmguard/)
+[![PyPI](https://badge.fury.io/py/neeraj-llmguard.svg)](https://pypi.org/project/neeraj-llmguard/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![API](https://img.shields.io/badge/API-live-brightgreen)](https://llmguard-k8n2.onrender.com/docs)
+[![API Live](https://img.shields.io/badge/API-live-brightgreen)](https://llmguard-k8n2.onrender.com/docs)
+[![HuggingFace](https://img.shields.io/badge/🤗-model-yellow)](https://huggingface.co/Neeraj-Ch0udhary/llmguard-input-guard)
 
 LLMGuard wraps any LLM call with 3 layers of protection:
 
